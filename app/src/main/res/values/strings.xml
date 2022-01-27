@@ -27,4 +27,10 @@
     <string name="logo_description">логотип</string>
     <string name="title_description">название</string>
     <string name="back_button_description">назад</string>
+    <string name="activity">Активность</string>
+    <string name="profile">Профиль</string>
+    <string name="time_to_train">Время потренить</string>
+    <string name="time_to_train_button">Нажимай на кнопку ниже и начинаем\nтрекать активность</string>
+    <string name="other_activities">Пользователей</string>
+    <string name="personal_activities">Мои</string>
 </resources>
