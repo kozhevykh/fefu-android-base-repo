@@ -27,9 +27,6 @@
     <string name="logo_description">логотип</string>
     <string name="title_description">название</string>
     <string name="back_button_description">назад</string>
-<<<<<<< Updated upstream
-</resources>
-=======
     <string name="activity">Активность</string>
     <string name="profile">Профиль</string>
     <string name="time_to_train">Время потренить</string>
@@ -40,4 +37,3 @@
     <string name="share">Поделиться</string>
     <string name="comment">Комментарий</string>
 </resources> 
->>>>>>> Stashed changes
