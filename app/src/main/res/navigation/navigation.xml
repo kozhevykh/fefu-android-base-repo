@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/activityMainFragment">
+
+    <fragment
+        android:id="@+id/activityMainFragment"
+        android:name="ru.fefu.activitytracker.activity.Activities"
+        android:label="ActivityMainFragment">
+        <action
+            android:id="@+id/action_activityMainFragment_to_myInfoFragment"
+            app:destination="@id/myInfoFragment"
+            app:launchSingleTop="false">
+            <argument
+                android:name="id"
+                app:argType="integer"
+            />
+    </action>
+        <action
+            android:id="@+id/action_activityMainFragment_to_userInfoFragment"
+            app:destination="@id/userInfoFragment" />
+        <action
+            android:id="@+id/action_activityMainFragment_to_activityMap"
+            app:destination="@id/activityMap" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/activityProfileFragment"
+        android:name="ru.fefu.activitytracker.activity.Profile"
+        android:label="ActivityProfileFragment"
+        >
+        <action
+            android:id="@+id/action_activityProfileFragment_to_changePasswordFragment"
+            app:destination="@id/changePasswordFragment"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/myInfoFragment"
+        android:name="ru.fefu.activitytracker.activity.PersonalCardInfo"
+        android:label="MyInfoFragment"
+        />
+
+    <fragment
+        android:id="@+id/userInfoFragment"
+        android:name="ru.fefu.activitytracker.activity.UserCardInfo"
+        android:label="UserInfoFragment"
+        />
+
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="ru.fefu.activitytracker.activity.PassChange"
+        android:label="ChangePasswordFragment"
+        >
+    </fragment>
+    <activity
+        android:id="@+id/activityMap"
+        android:name="ru.fefu.activitytracker.map.MapActivity"
+        android:label="ActivityMap" >
+        <argument
+            android:name="activityId"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </activity>
+
+
+</navigation>

@@ -1,9 +1,11 @@
-package ru.fefu.activitytracker
+package ru.fefu.activitytracker.mainscreen
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import ru.fefu.activitytracker.databinding.TitleScreenBinding
+import ru.fefu.activitytracker.login.LoginScreenActivity
+import ru.fefu.activitytracker.registration.RegistrationScreenActivity
 
 class TitleScreenActivity : AppCompatActivity() {
     private lateinit var binding: TitleScreenBinding
@@ -30,4 +32,4 @@ class TitleScreenActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
-} 
+}
