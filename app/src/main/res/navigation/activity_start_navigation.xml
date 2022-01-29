@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_start_navigation"
+    app:startDestination="@id/activityStartFragment">
+
+    <fragment
+        android:id="@+id/activityStartFragment"
+        android:name="ru.fefu.activitytracker.map.Start"
+        android:label="ActivityStartFragment">
+        <action
+            android:id="@+id/action_activityStartFragment_to_activityTrackFragment"
+            app:destination="@id/activityTrackFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/activityTrackFragment"
+        android:name="ru.fefu.activitytracker.map.Track"
+        android:label="ActivityTrackFragment">
+    </fragment>
+</navigation> 
