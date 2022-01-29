@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/user_info_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_arrow"
+        app:title="Велосипед 🚲" />
+
+    <TextView
+        android:id="@+id/username_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+
+        android:text="\@van_darkholme"
+        android:textColor="@color/purple_500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_info_toolbar" />
+
+
+    <TextView
+        android:id="@+id/distance_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="14.32 км"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username_info" />
+
+    <TextView
+        android:id="@+id/past_time_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="14 часов назад"
+        android:textColor="@color/grey"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/distance_info"
+        app:layout_constraintTop_toBottomOf="@+id/distance_info" />
+
+    <TextView
+        android:id="@+id/duration_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="1 ч 42 мин"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/past_time_info" />
+
+    <TextView
+        android:id="@+id/start_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Старт"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/duration_info"
+        app:layout_constraintTop_toBottomOf="@+id/duration_info" />
+
+    <TextView
+        android:id="@+id/start_time_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="14:49"
+        android:textColor="@color/grey"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/start_info"
+        app:layout_constraintTop_toBottomOf="@+id/duration_info" />
+
+    <TextView
+        android:id="@+id/sep"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="|"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/start_time_info"
+        app:layout_constraintTop_toBottomOf="@+id/duration_info" />
+
+    <TextView
+        android:id="@+id/finish_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Финиш"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/sep"
+        app:layout_constraintTop_toBottomOf="@+id/duration_info" />
+
+    <TextView
+        android:id="@+id/finish_time_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="16:31"
+        android:textColor="@color/grey"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/finish_info"
+        app:layout_constraintTop_toBottomOf="@+id/duration_info" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/comment_info"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_info">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:text="Я бежал очень сильно, ты так не сможешь"
+            android:enabled="false"
+            android:textColor="@color/grey"
+            android:layout_height="match_parent" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

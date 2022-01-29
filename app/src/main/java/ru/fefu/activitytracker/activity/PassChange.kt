@@ -15,4 +15,4 @@ class PassChange : Base<PassChangeBinding>(R.layout.pass_change) {
             findNavController().popBackStack()
         }
     }
-} 
+}

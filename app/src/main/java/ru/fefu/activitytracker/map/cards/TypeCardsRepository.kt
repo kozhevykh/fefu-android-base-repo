@@ -17,4 +17,4 @@ class TypeCardsRepository {
     )
 
     fun getTypeCards(): List<Any> = cardslist
-} 
+}

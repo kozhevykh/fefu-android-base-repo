@@ -28,4 +28,4 @@ class UserActivities : Base<UserActivitiesBinding>(R.layout.user_activities) {
             findNavController().navigate(action)
         }
     }
-} 
+}

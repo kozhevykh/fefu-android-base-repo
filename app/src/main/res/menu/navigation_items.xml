@@ -6,4 +6,4 @@
     <item android:id="@+id/activityProfileFragment"
         android:title="@string/profile"
         android:icon="@drawable/ic_profile"/>
-</menu> 
+</menu>

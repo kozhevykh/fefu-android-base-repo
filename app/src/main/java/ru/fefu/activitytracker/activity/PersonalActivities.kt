@@ -28,4 +28,4 @@ class PersonalActivities : Base<PersonalActivitiesBinding>(R.layout.personal_act
             findNavController().navigate(action)
         }
     }
-} 
+}

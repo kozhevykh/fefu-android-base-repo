@@ -6,4 +6,4 @@ import ru.fefu.activitytracker.activity.Base
 
 class Track : Base<ActivityTrackBinding>(R.layout.activity_track) {
 
-} 
+}

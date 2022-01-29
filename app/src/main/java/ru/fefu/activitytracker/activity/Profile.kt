@@ -1,3 +1,5 @@
+
+
 package ru.fefu.activitytracker.activity
 
 import android.os.Bundle
@@ -15,4 +17,4 @@ class Profile : Base<ActivityProfileBinding>(R.layout.activity_profile) {
             findNavController().navigate(action)
         }
     }
-} 
+}

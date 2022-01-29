@@ -2,4 +2,4 @@
 <resources>
     <dimen name="Selected">2dp</dimen>
     <dimen name="notSelected">1dp</dimen>
-</resources> 
+</resources>

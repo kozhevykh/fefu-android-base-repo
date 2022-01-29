@@ -9,6 +9,7 @@ import ru.fefu.activitytracker.R
 import ru.fefu.activitytracker.databinding.UserActivityInfoBinding
 
 class UserCardInfo : Base<UserActivityInfoBinding>(R.layout.user_activity_info) {
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -24,4 +25,4 @@ class UserCardInfo : Base<UserActivityInfoBinding>(R.layout.user_activity_info) 
             findNavController().popBackStack()
         }
     }
-} 
+}

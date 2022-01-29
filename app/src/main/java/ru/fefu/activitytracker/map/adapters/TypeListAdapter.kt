@@ -53,4 +53,4 @@ class TypeListAdapter (cards: List<TypeCard>): RecyclerView.Adapter<RecyclerView
         }
 
     }
-} 
+}

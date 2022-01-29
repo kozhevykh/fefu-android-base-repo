@@ -16,4 +16,4 @@ class MapActivity : AppCompatActivity() {
         }
         setContentView(binding.root)
     }
-} 
+}

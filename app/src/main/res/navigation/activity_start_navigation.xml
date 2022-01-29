@@ -18,4 +18,4 @@
         android:name="ru.fefu.activitytracker.map.Track"
         android:label="ActivityTrackFragment">
     </fragment>
-</navigation> 
+</navigation>

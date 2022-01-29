@@ -28,4 +28,4 @@ class Start : Base<ActivityStartBinding>(R.layout.activity_start) {
             findNavController().navigate(action)
         }
     }
-} 
+}

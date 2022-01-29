@@ -10,7 +10,7 @@
     <string name="continue_button_text">Войти</string>
     <string name="registration_title">Регистрация</string>
     <string name="duplicate_password_hint">Повторите пароль</string>
-    <string name="name_hint">Имя</string>
+    <string name="name_hint">Имя или никнейм</string>
     <string name="sex_hint">Пол</string>
     <string name="sex_man">Мужской</string>
     <string name="sex_woman">Женский</string>
@@ -27,9 +27,6 @@
     <string name="logo_description">логотип</string>
     <string name="title_description">название</string>
     <string name="back_button_description">назад</string>
-<<<<<<< Updated upstream
-</resources>
-=======
     <string name="activity">Активность</string>
     <string name="profile">Профиль</string>
     <string name="time_to_train">Время потренить</string>
@@ -48,5 +45,4 @@
     <string name="accept">Принять</string>
     <string name="start_title">Погнали? :)</string>
     <string name="start_button">Начать</string>
-</resources> 
->>>>>>> Stashed changes
+</resources>

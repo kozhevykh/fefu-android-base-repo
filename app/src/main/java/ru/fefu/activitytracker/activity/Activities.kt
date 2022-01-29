@@ -11,6 +11,7 @@ import ru.fefu.activitytracker.databinding.ActivityTabsBinding
 import ru.fefu.activitytracker.activity.adapters.ViewAdapter
 import ru.fefu.activitytracker.map.MapActivity
 
+
 class Activities : Base<ActivityTabsBinding>(R.layout.activity_tabs) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,4 +46,4 @@ class Activities : Base<ActivityTabsBinding>(R.layout.activity_tabs) {
             findNavController().navigate(action)
         }
     }
-} 
+}

@@ -26,4 +26,4 @@ class PersonalCardInfo : Base<PersonalActivityInfoBinding>(R.layout.personal_act
         }
     }
 
-} 
+}
