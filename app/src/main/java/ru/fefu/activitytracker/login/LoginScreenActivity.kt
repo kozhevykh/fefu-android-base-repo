@@ -1,4 +1,4 @@
-package ru.fefu.activitytracker
+package ru.fefu.activitytracker.login
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -16,4 +16,4 @@ class LoginScreenActivity: AppCompatActivity() {
             finish()
         }
     }
-} 
+}
