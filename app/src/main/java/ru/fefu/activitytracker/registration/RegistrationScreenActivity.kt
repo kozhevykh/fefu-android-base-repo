@@ -1,4 +1,4 @@
-package ru.fefu.activitytracker
+package ru.fefu.activitytracker.registration
 
 import android.os.Bundle
 import android.text.method.LinkMovementMethod
@@ -17,4 +17,4 @@ class RegistrationScreenActivity: AppCompatActivity() {
             finish()
         }
     }
-} 
+}
